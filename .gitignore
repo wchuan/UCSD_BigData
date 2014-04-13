@@ -1,0 +1,11 @@
+*.dta
+.csv
+*.htm
+*.xlsx
+*.xls
+*.pdf
+.DS_Store
+*.swp
+*.asv
+*.db
+*.json
