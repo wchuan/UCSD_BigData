@@ -10,3 +10,4 @@
 *.asv
 *.db
 *.json
+Self/*
