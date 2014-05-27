@@ -1,3 +1,4 @@
+#!/usr/bin/python
 """
 collect the statistics for each station.
 """
@@ -81,8 +82,7 @@ class MRWeather(MRJob):
         S={}
         for vector in vectors:
             self.reduce_one(S,vector)
-        #yield(station,dumps(S))
-        yield(station, S)
+        yield(station,dumps(S))
                               
 if __name__ == '__main__':
     MRWeather.run()
